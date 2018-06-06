@@ -1,0 +1,8 @@
+version: "2"
+services:
+  example:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+      args:
+        proxy: http://usuario:senha@host:porta
